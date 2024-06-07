@@ -1,0 +1,14 @@
+{
+  "name": "youtube_backend",
+  "version": "1.0.0",
+  "description": "backend with ryan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Ryan",
+  "license": "ISC"
+}

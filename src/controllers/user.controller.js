@@ -22,7 +22,7 @@ const registerUser = asyncHandler(async (req, res) => {
     // get user details from thunder client 
     // get the data from req.body 
     const { fullName, email, username, password } = req.body
-    console.log("email", email)
+   console.log("email", email)
 
 
 
@@ -49,7 +49,7 @@ const registerUser = asyncHandler(async (req, res) => {
 
     // check for images , check for avatar
     
-   console.log('Files:', req.files); 
+   //console.log('Files:', req.files); 
     const avatarLocalPath = req.files?.avatar[0]?.path;
     //const coverImageLocalPath = req.files?.coverImage[0]?.path
     let coverImageLocalPath;
